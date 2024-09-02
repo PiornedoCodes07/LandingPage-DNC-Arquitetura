@@ -47,10 +47,11 @@
     <!--MENU FORMULÁRIO-->
     <div id="menu-formulario">
         <h1 id="titulo-formulario">Conheça mais sobre nossos serviços:</h1>
-        <form action="">
-            <input class="input-formulario" type="text" placeholder="Nome"> <br>
-            <input class="input-formulario" type="text" placeholder="Email"> <br>
-            <button id="botao-formulario">Fale Conosco</button>
+        <form action="https://api.sheetmonkey.io/form/mLw6MLgKhchTzwb6hshGev" method="post">
+            <input class="input-formulario" type="text" placeholder="Nome" name="Name" required/><br>
+            <input class="input-formulario" type="text" placeholder="Email" name="Email" required/><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
+            <button id="botao-formulario" type="submit" value="Sign Up">Fale Conosco</button>
         </form>
     </div>
     <!--LINK SCRIPT-->
